@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: CiscoSansTT, Arial, sans-serif;
+    background: #f0f4f8;
+  }
+  .card {
+    text-align: center;
+    background: white;
+    padding: 48px 64px;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  }
+  .title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 8px;
+  }
+  .sub {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 32px;
+  }
+  .btn {
+    display: inline-block;
+    padding: 12px 32px;
+    background: #007aa3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.2s;
+  }
+  .btn:hover { background: #005f7f; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="title">CX / EX Dashboard</div>
+    <div class="sub">Powered by Verint</div>
+    <button class="btn" onclick="window.open('https://shared-wfe.verint.live', '_blank', 'noopener,noreferrer')">
+      Open Dashboard &#8599;
+    </button>
+  </div>
+</body>
+</html>
